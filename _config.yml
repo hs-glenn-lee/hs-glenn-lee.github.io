@@ -1,6 +1,6 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          "Heesoo Lee"
+description:    "소프트웨어 개발 블로그입니다."
 url:            "https://hs-glenn-lee.github.io"
 
 # Google Analytics
@@ -8,9 +8,8 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         이희수
+  email:        lheesoo89@gmail.com
 
 # Build settings
 markdown:       kramdown
