@@ -8,10 +8,10 @@ Django ORM이 Active Record Pattern으로 구현되어있다하여, 마틴 파�
 
 [장고 공식 Documentation, 디자인 철학](https://docs.djangoproject.com/en/2.2/misc/design-philosophies/#include-all-relevant-domain-logic) 중 에서
 
-> Include all relevant domain logic¶
+> Include all relevant domain logic
 Models should encapsulate every aspect of an “object,” following Martin Fowler’s Active Record design pattern.
 
-> 모델은 객체의 모든 측면을 캡슐화 해야한다.
+모델은 객체의 모든 측면을 캡슐화 해야한다.
 
 > This is why both the data represented by a model and information about it (its human-readable name, options like default ordering, etc.) are defined in the model class; all the information needed to understand a given model should be stored in the model.
 
@@ -83,6 +83,7 @@ Django ORM에서 정적 검색기는 **Person.objects**에 할당된 **ModelMana
 다음 책 에제 코드와 설명
 
 > 모든 비즈니스 논리(예: 공제액 계산)는 인물 클래스 자체에 포함된다. p.173
+
 ```text
 class Person...
 
