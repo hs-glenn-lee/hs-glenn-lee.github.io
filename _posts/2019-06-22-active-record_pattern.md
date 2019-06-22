@@ -8,19 +8,20 @@ Django ORM이 Active Record Pattern으로 구현되어있다하여, 마틴 파�
 
 [장고 공식 Documentation, 디자인 철학](https://docs.djangoproject.com/en/2.2/misc/design-philosophies/#include-all-relevant-domain-logic) 중 에서
 
-> Include all relevant domain logic
+> **Include all relevant domain logic**
 Models should encapsulate every aspect of an “object,” following Martin Fowler’s Active Record design pattern.
 
 모델은 객체의 모든 측면을 캡슐화 해야한다.
 
 > This is why both the data represented by a model and information about it (its human-readable name, options like default ordering, etc.) are defined in the model class; all the information needed to understand a given model should be stored in the model.
 
-> 따라서 모델이 나타내는 데이터와 모델에 관한 정보(사람이 읽을 값, default 정렬 방법 등)은 모델 클래스에 정의되어야 한다. 주어진 모델을 이해하는데 필요한 정보는 모델 안에 있어야 한다.
+따라서 모델이 나타내는 데이터와 모델에 관한 정보(사람이 읽을 값, default 정렬 방법 등)은 모델 클래스에 정의되어야 한다. 주어진 모델을 이해하는데 필요한 정보는 모델 안에 있어야 한다.
 
 
 ## 액티브 레코드 패턴
 > An object that wraps a row in a database table or view, encapsulates the database access, and adds domain logic on that data.
-> 데이터베이스 테이블이나 뷰의 행을 래핑하고, 데이터베이스 접근을 캡슐화하여, 해당 데이터에 대한 도메인 논리를 추가하는 객체
+
+데이터베이스 테이블이나 뷰의 행을 래핑하고, 데이터베이스 접근을 캡슐화하여, 해당 데이터에 대한 도메인 논리를 추가하는 객체
 
 ![액티브 레코드 패턴 uml]({{site.url}}/assets/post_images/activeRecordSketch.gif )
 
@@ -94,10 +95,10 @@ class Person...
     }
 ```
 
-아직 잘 모르겠지만.. 비즈니스 로직은 인스턴스 메소드로, 정적 메소드에는 활성 레코드 인스턴스 값과 무관한 검색과 같은 정적 동작을 정의하면 되는 것 같다.
+아직 잘 모르겠지만..책에 예제와 설명이 부족하다. 비즈니스 로직은 인스턴스 메소드로, 정적 메소드에는 활성 레코드 인스턴스 값과 무관한 검색과 같은 정적 동작을 정의하면 되는 것 같다.
 
 ### 궁금점1-3 일부의 비즈니스 논리는 어떻게 구현되나? 전체의 비즈니스의 논리중 어떤 일부가 활성 레코드에 구현되나
-**결론 적으로 활성 레코드는 도메인 모델의 일부.. 데이터베이스를 조작하는 부분이니.. 잘 모르는 도메인 모델 섹션을 더 공부해야.. 전체적인 결론을 구할 수 있을 것 같다.**
+**결론 적으로 활성 레코드는 도메인 모델의 일부.. 데이터베이스를 조작하는 부분이니.. 잘 모르는 부분인 책에 도메인 모델 섹션을 더 공부해야.. 전체적인 결론을 구할 수 있을 것 같다.**
 
 ## 사용 시점
 #### 장점
