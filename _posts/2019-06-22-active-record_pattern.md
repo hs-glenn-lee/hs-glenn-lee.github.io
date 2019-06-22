@@ -10,8 +10,11 @@ Django ORM이 Active Record Pattern으로 구현되어있다하여, 마틴 파�
 
 > Include all relevant domain logic¶
 Models should encapsulate every aspect of an “object,” following Martin Fowler’s Active Record design pattern.
+
 > 모델은 객체의 모든 측면을 캡슐화 해야한다.
+
 > This is why both the data represented by a model and information about it (its human-readable name, options like default ordering, etc.) are defined in the model class; all the information needed to understand a given model should be stored in the model.
+
 > 따라서 모델이 나타내는 데이터와 모델에 관한 정보(사람이 읽을 값, default 정렬 방법 등)은 모델 클래스에 정의되어야 한다. 주어진 모델을 이해하는데 필요한 정보는 모델 안에 있어야 한다.
 
 
@@ -19,8 +22,7 @@ Models should encapsulate every aspect of an “object,” following Martin Fowl
 > An object that wraps a row in a database table or view, encapsulates the database access, and adds domain logic on that data.
 > 데이터베이스 테이블이나 뷰의 행을 래핑하고, 데이터베이스 접근을 캡슐화하여, 해당 데이터에 대한 도메인 논리를 추가하는 객체
 
-![액티브 레코드 패턴 uml]({{site.url}}/assets/postimages/activeRecordSketch.gif )
-
+![액티브 레코드 패턴 uml]({{site.url}}/assets/post_images/activeRecordSketch.gif )
 
 
 ### 정의와 특징
@@ -60,7 +62,7 @@ Persistent Data를 다루는 패턴 중에 하나다.
 
 *궁금점1-2* 어떤것을 클래스 메소드에 정의하고, 어떤 것을 인스턴스 메소드에 정의 할까.
 
-예제 코드를 보고 추측한다.
+책 예제 코드를 보고 추측한다.
 ```text
 class Person...
     private static String findStatementString = "SELECT id, ... FROM people WHERE id = ?";
@@ -78,7 +80,7 @@ class Person...
 
 Django ORM에서 정적 검색기는 **Person.objects**에 할당된 **ModelManager**다. 클래스 변수 **objects** 에 할당 되므로 ModelManager는 위에서 처럼 다른 클래스로 분리된 활성 레코드 클래스의 클래스 메소드다.
 
-다음 에제 코드와 설명
+다음 책 에제 코드와 설명
 
 > 모든 비즈니스 논리(예: 공제액 계산)는 인물 클래스 자체에 포함된다. p.173
 ```text
