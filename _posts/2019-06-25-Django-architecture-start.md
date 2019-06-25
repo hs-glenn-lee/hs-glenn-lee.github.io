@@ -11,6 +11,7 @@ author: "이희수"
 3. 재사용하기 좋게
 
 ## 할 것, 궁금한 것
+- [active record 패턴](https://hs-glenn-lee.github.io/2019-06-22/active-record_pattern)
 - 도메인 모델
 - djangoproject.com 소스 코드 분석
 - Model에 비즈니스 로직을 넣는다면, 외래키 관계에 있는 다른 모델과 integrate? aggeragate?되어야 하는 로직은 어떤 구조에서 구현해야 하나.
