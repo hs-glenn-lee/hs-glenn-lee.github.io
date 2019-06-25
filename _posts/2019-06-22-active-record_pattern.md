@@ -63,7 +63,7 @@ Persistent Data를 다루는 패턴 중에 하나다.
 
 ### 궁금점1-2 어떤것을 클래스 메소드에 정의하고, 어떤 것을 인스턴스 메소드에 정의 할까.
 
-책 예제 코드를 보고 추측한다.
+결론적으로 잘 모르겠다. 책 예제 코드를 보고 추측한다.
 ```text
 class Person...
     private static String findStatementString = "SELECT id, ... FROM people WHERE id = ?";
@@ -95,14 +95,15 @@ class Person...
     }
 ```
 
+Model 인스턴스의 상태를 변경하는 동작은 인스턴스 메소드로 구현을 하면 된다?
+
 책에 예제와 설명이 부족하다. 여기저기 살펴봤을 때, 기본 적으로 Django Style Guide가 주장하는 것은 Model에 관련된 건 모두 Model에 담겨있어야 한다 했다. 비즈니스 로직을 Model에 담는 것이다.
 
 Model에 담다 보면 Fat Model 거대 모델이 되는데 이를 해결하는 방법은 각자가 다르다. 인터넷에 질문도 고민도 많다.
 - [케빈 스톤 behaviour](https://blog.kevinastone.com/django-model-behaviors)는 Two Scoops of Django에서 소개 된다.
 - view, form, serializer에 비즈니스 로직을 담는 방법.
-
-[MVUT](https://sunscrapers.com/blog/where-to-put-business-logic-django/)
-[여러가지를 고민한 글](https://medium.com/@jairvercosa/business-logic-in-django-projects-7fe700db9b0a)
+- [MVUT](https://sunscrapers.com/blog/where-to-put-business-logic-django/)
+- [여러가지를 고민한 글](https://medium.com/@jairvercosa/business-logic-in-django-projects-7fe700db9b0a)
 
 ### 궁금점1-3 일부의 비즈니스 논리는 어떻게 구현되나? 전체의 비즈니스의 논리중 어떤 일부가 활성 레코드에 구현되나
 **책에 있는 내용으로는 활성 레코드는 도메인 모델의 일부를 담는다. 데이터베이스를 조작하는 부분이니.. 잘 모르는 부분인 책에 도메인 모델 섹션을 더 공부해야.. 전체적인 결론을 구할 수 있을 것 같다.**
