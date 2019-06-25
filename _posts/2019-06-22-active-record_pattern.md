@@ -97,7 +97,9 @@ class Person...
 
 Model 인스턴스의 상태를 변경하는 동작은 인스턴스 메소드로 구현을 하면 된다?
 
-책에 예제와 설명이 부족하다. 여기저기 살펴봤을 때, 기본 적으로 Django Style Guide가 주장하는 것은 Model에 관련된 건 모두 Model에 담겨있어야 한다 했다. 비즈니스 로직을 Model에 담는 것이다.
+책에 예제와 설명이 부족하다.
+
+여기저기 살펴봤을 때, 기본적으로 Django Style Guide가 주장하는 것은 Model에 관련된 건 모두 Model에 담겨있어야 한다 했다. 비즈니스 로직을 Model에 담는 것이다.
 
 Model에 담다 보면 Fat Model 거대 모델이 되는데 이를 해결하는 방법은 각자가 다르다. 인터넷에 질문도 고민도 많다.
 - [케빈 스톤 behaviour](https://blog.kevinastone.com/django-model-behaviors)는 Two Scoops of Django에서 소개 된다.
