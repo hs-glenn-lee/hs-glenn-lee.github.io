@@ -42,16 +42,16 @@ a {
 
 blockquote {
   border-left: .25rem solid $grey-2;
-  color: $grey-1;
+  color: $quote-blue;
   margin: .8rem 0;
   padding: .5rem 1rem;
-
+  background-color: $grey-3;
   p:last-child {
     margin-bottom: 0;
   }
 
   @media (min-width: 600px) {
-    padding: 0 5rem 0 1.25rem;
+    padding: .3rem 5rem .3rem 1.25rem;
   }
 }
 
