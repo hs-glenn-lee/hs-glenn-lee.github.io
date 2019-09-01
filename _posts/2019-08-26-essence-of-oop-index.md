@@ -6,7 +6,7 @@ author: "이희수"
 
 # 목차
 
-* [객체지향의 사실과 오해](https://hs-glenn-lee.github.io/2019-06-22/active-record_pattern)
+* [객체지향의 사실과 오해](https://hs-glenn-lee.github.io/2019-08-30/oop-mis-fact)
 
 * 객체
     * 객체지향과 인지능력
