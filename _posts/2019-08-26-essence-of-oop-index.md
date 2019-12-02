@@ -8,14 +8,9 @@ author: "이희수"
 
 * [객체지향의 사실과 오해](https://hs-glenn-lee.github.io/2019-08-30/oop-mis-fact)
 
-* 객체
-    * 객체지향과 인지능력
-    * 객체 - 상태, 행동, 식별자
-    * 기계로서의 객체
-    * ...
-    * 부록, 추상화 기법
+* [이상한 나라의 객체](https://hs-glenn-lee.github.io/2019-09-07/oop-odd-object)
 
-* 타입과 추상화
+* [타입과 객체](https://hs-glenn-lee.github.io/2019-12-01/oop-abstraction-and-type)
 
 * 역할, 책임, 협력
 
