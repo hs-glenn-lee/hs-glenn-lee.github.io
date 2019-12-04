@@ -10,7 +10,7 @@ author: "이희수"
 
 * [이상한 나라의 객체](https://hs-glenn-lee.github.io/2019-09-07/oop-odd-object)
 
-* [타입과 객체](https://hs-glenn-lee.github.io/2019-12-01/oop-abstraction-and-type)
+* [타입과 추상화](https://hs-glenn-lee.github.io/2019-12-01/oop-abstraction-and-type)
 
 * 역할, 책임, 협력
 
