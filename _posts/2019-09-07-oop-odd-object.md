@@ -137,9 +137,6 @@ author: "이희수"
 책임-주도 설계(RDD)는 어떤 책임이 필요한가를 결정하는 과정이 설계를 주도해야 한다는 설계 방법론이다.
 
 
-p.69
-
-TODO
 현실세계와 객체지향 세계 사이의 관계를 좀 더 정확하게 설명할 수 있는 단어는 은유(metaphor)다.[Noble 2002]
 표현적 차이(representational gap) 의미적 차이(semantic gap) [Larman 2003]
 
