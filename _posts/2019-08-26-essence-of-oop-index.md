@@ -12,11 +12,11 @@ author: "이희수"
 
 * [타입과 추상화](https://hs-glenn-lee.github.io/2019-12-01/oop-abstraction-and-type)
 
-* 역할, 책임, 협력
+* [역할, 책임, 협력](https://hs-glenn-lee.github.io/2019-12-15/RRC)
 
-* 책임과 메시지
+* [책임과 메시지](https://hs-glenn-lee.github.io/2019-12-22/Responsibility-and-message)
 
-* 객체지도
+* [객체지도](https://hs-glenn-lee.github.io/2019-12-25/object-map)
 
 * 함께 모으기
 
