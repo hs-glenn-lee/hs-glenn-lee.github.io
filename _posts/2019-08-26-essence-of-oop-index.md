@@ -18,7 +18,5 @@ author: "이희수"
 
 * [객체지도](https://hs-glenn-lee.github.io/2019-12-25/object-map)
 
-* 함께 모으기
-
-* 어플리케이션을 객체지향 적으로
+* ~~함께 모으기~~
 
